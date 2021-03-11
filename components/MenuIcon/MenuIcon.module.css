@@ -1,0 +1,50 @@
+
+.menu_icon {
+	font-family: var(--ff-subtitle);
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	position: relative;
+	width: 88.5px;
+	height: 19px;
+	cursor: pointer;
+	transition: all 0.5s;
+
+	
+}
+.menu_icon::before {
+	content: "";
+	position: absolute;
+	background-color: black;
+	width: 30px;
+	height: 2px;
+	left: 100%;
+	top: 0;
+
+}  
+.menu_icon::after {
+	content: "";
+	position: absolute;
+	background-color: black;
+	width: 20px;
+	height: 2px;
+	left: 110%;
+	top: 50%;
+
+}
+
+.close_icon {
+	font-family: var(--ff-subtitle);
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.close_icon:hover,
+.menu_icon:hover {
+	color: black;
+}

@@ -1,0 +1,125 @@
+.about_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.about_container .image {
+  width: 90%;
+  max-width: 701px;
+  height: 493px;
+  -webkit-box-shadow: 40px 32px #979797;
+          box-shadow: 40px 32px #979797;
+}
+
+.about_container .title {
+  position: absolute;
+  top: 5%;
+  mix-blend-mode: soft-light;
+}
+
+.about_body {
+  max-width: 280px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 1rem;
+  margin-left: 10rem;
+}
+
+.title {
+  font-family: var(--ff-title);
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--fs-title);
+  color: var(--clr-white);
+  -webkit-text-stroke: 1px var(--clr-primary);
+}
+
+.subtitle {
+  font-family: var(--ff-subtitle);
+  font-size: var(--fs-subtitle);
+  line-height: 32px;
+  color: var(--clr-primary);
+}
+
+.text {
+  font-family: var(--ff-text);
+  font-size: var(--fs-text);
+  line-height: 32px;
+  color: var(--clr-text);
+}
+
+.vision {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.vision .title {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.vision_body {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 865px;
+}
+
+.vision_body .subtitle {
+  width: 460px;
+}
+
+.vision_body .text {
+  width: 665px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.ourValues {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 5rem auto;
+  position: relative;
+}
+
+.ourValues .image {
+  width: 1000px;
+  max-height: 654px;
+  -webkit-box-shadow: -40px -32px #979797;
+          box-shadow: -40px -32px #979797;
+}
+/*# sourceMappingURL=about.module.css.map */

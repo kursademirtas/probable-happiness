@@ -1,0 +1,9 @@
+.header_container {
+	display: flex;
+	height: 10vh;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+}

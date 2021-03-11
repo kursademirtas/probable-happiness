@@ -1,0 +1,35 @@
+.menu{
+	width: 100vw;
+	position: absolute;
+	height: 90vh;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	z-index: 10;
+	top: 10%;
+	left: 0;
+}
+
+.nav_container {
+	width: fit-content;
+	margin-left: 10%;
+}
+
+.menu_item {
+	font-family: var(--ff-title);
+	font-size: var(--fs-title);
+	color: var(--clr-primary);
+	font-weight: 300;
+	cursor: pointer;
+	transition: all 0.5s;
+	list-style:none;
+}
+
+.menu_itemm:focus,
+.menu_item:hover {
+	color: white;
+	-webkit-text-stroke: 1px var(--clr-primary);
+}
+
+
+
