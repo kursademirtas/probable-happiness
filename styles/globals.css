@@ -33,7 +33,12 @@ a {
   justify-content: space-between;
   margin-left: 10%;
 }
-
+.icons_vertical {
+  display: flex;
+  height: 70px;
+  width: 21px;
+  flex-direction: column;
+}
 .title {
 
   font-family: var(--ff-title);
