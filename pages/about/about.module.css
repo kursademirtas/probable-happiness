@@ -116,10 +116,116 @@
   position: relative;
 }
 
+.ourValues .title {
+  position: absolute;
+  bottom: 34%;
+  mix-blend-mode: soft-light;
+}
+
+.ourValues .subtitle {
+  margin: 5rem 0;
+  width: 701px;
+}
+
+.ourValues .ourValues_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.ourValues .text {
+  max-width: 560px;
+}
+
 .ourValues .image {
   width: 1000px;
   max-height: 654px;
-  -webkit-box-shadow: -40px -32px #979797;
-          box-shadow: -40px -32px #979797;
+  -webkit-box-shadow: -40px -32px var(--clr-secondary);
+          box-shadow: -40px -32px var(--clr-secondary);
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.team .title_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.team .title_container .text {
+  max-width: 620px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 6rem;
+  margin-left: -2rem;
+}
+
+.person_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 462px;
+}
+
+.person_card .subtitle {
+  padding: 1rem 0;
+}
+
+.person_card .text {
+  font-size: 14px;
+  padding: 2rem 0;
+  max-width: 375px;
+}
+
+.card_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.card_top span {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  left: -15%;
+  top: 12%;
+  text-transform: uppercase;
+}
+
+.card_top div {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: 10px;
+}
+
+.card_left {
+  margin-top: -60px;
 }
 /*# sourceMappingURL=about.module.css.map */

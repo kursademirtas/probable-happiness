@@ -92,11 +92,86 @@
 	width: 90%;
 	margin: 5rem auto;
 	position: relative;
+
+	.title {
+		position: absolute;
+		bottom: 34%;
+		mix-blend-mode:soft-light;
+	}
+	.subtitle {
+		margin: 5rem 0;
+		width: 701px;
+	}
+
+	.ourValues_body {
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+	}
+	.text {
+		max-width: 560px;
 	
+	}
 	.image {
 		width: 1000px;	
 		max-height: 654px;
-		box-shadow: -40px -32px #979797;
+		box-shadow: -40px -32px var(--clr-secondary);
 	}
-	
+}
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 90%;
+	margin: 0 auto;
+	.title_container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 2rem;
+		.text {
+			max-width: 620px;
+			align-self: center;	
+			margin-bottom: 6rem;
+			margin-left: -2rem;
+
+		}
+	}
+
+}
+
+.person_card {
+	display: flex;
+	flex-direction: column;
+	width: 462px;
+	.subtitle {
+		padding: 1rem 0;
+	}
+	.text {
+		font-size: 14px;
+		padding: 2rem 0;
+		max-width: 375px;
+	}
+}
+
+.card_top {
+	display: flex;
+	position: relative;
+	width:100%;
+	span {
+		position: absolute;
+		transform: rotate(90deg);
+		left: -15%;
+		top: 12%;
+		text-transform: uppercase;
+	}
+	div {
+		align-self: flex-end;
+		margin-left: 10px;
+	}
+}
+
+
+.card_left {
+	margin-top: -60px;
 }
