@@ -1,0 +1,61 @@
+.services {
+  background-color: var(--clr-primary);
+  width: 100%;
+  overflow: hidden;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service span {
+  font-family: var(--ff-primary);
+  font-size: 15rem;
+  -webkit-text-stroke: white 0.8px;
+  color: transparent;
+  margin-top: -4rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.service h2 {
+  font-family: var(--ff-secondary);
+  color: white;
+  font-size: 38px;
+  padding: 1rem;
+}
+
+.service p {
+  font-family: var(--ff-text);
+  color: white;
+  font-size: var(--fs-text);
+  padding: 1rem;
+  max-width: 545px;
+}
+
+.service1 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.service2 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+/*# sourceMappingURL=services.module.css.map */

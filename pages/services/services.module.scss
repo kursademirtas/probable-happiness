@@ -1,0 +1,46 @@
+.services {
+	background-color: var(--clr-primary);
+	width: 100%;
+	overflow: hidden;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+	padding: 2rem;
+}
+
+.service {
+	display: flex;
+	span{
+		font-family: var(--ff-primary);
+		font-size: 15rem;
+		-webkit-text-stroke: white 0.8px;
+		color: transparent;
+		margin-top: -4rem;
+		transition: all 0.5s;
+
+	}
+	h2{
+		font-family: var(--ff-secondary);
+		color: white;
+		font-size: 38px;
+		padding: 1rem;
+	}
+	p {
+		font-family: var(--ff-text);
+		color: white;
+		font-size: var(--fs-text);
+		padding: 1rem;
+		max-width: 545px;
+	}
+}
+
+.service1 {
+align-self: flex-start;
+
+}
+.service2 {
+align-self: flex-end;
+}
