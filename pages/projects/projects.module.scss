@@ -16,24 +16,36 @@
 	}
 }
 
+
 @media only screen and (max-width: 1024px) {
 
 	.projects_container {
 		flex-direction: column-reverse;
 		overflow: hidden;
-
 		.title {
 			font-size: 39px;
 		}
-
+	}
+	.list_number {
+		position: static;
+		
+	
 	}
 	.images {
 		max-width: 90%;
 		align-self: center;
+		position: relative;
+	
+	
 		img {
 			width: 100%;
 			position: absolute;
 			height: 40vh;
+			transform: scale(1);
+			margin-left: 20px;
+		}
+		.current_image {
+			z-index: 1;
 		}
 	}
 
@@ -48,7 +60,7 @@
 .projects {
 	align-self: center;
 	position: relative;
-	span {
+	.list_number {
 		font-size: 1rem;
 		position: absolute;
 		transform: rotate(90deg);
@@ -63,13 +75,7 @@
 	font-size: 52px;
 	color: var(--clr-primary);
 	cursor: pointer;
-	
-	span {
-		font-size: 1rem;
-		position: absolute;
-		transform: rotate(90deg);
-		left: 20%;
-	}
+
 }
 
 .images {

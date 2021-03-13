@@ -19,11 +19,11 @@ const Projects = () => {
 				</div>
 				
 				<div className={styles.projects}>
-					<div className=""><span>01</span><h2 className={cn(styles.title, current === 0 && styles.current)}  onClick={() => setCurrent(0)}> Margaritas</h2></div>
-					<div className=""><span>02</span><h2 className={cn(styles.title, current === 1 && styles.current)} onClick={() => setCurrent(1)}>Toasts</h2></div>
-					<div className=""><span>03</span><h2 className={cn(styles.title, current === 2 && styles.current)} onClick={() => setCurrent(2)}>Avacado Club</h2></div>
-					<div className=""><span>04</span><h2 className={cn(styles.title, current === 3 && styles.current)} onClick={() => setCurrent(3)}>Pancakes</h2></div>
-					<div className=""><span>05</span><h2 className={cn(styles.title, current === 4 && styles.current)} onClick={() => setCurrent(4)}>Figs Fever</h2></div>
+					<div><span className={styles.list_number} >01</span><h2 className={cn(styles.title, current === 0 && styles.current)}  onClick={() => setCurrent(0)}> Margaritas</h2></div>
+					<div><span className={styles.list_number} >02</span><h2 className={cn(styles.title, current === 1 && styles.current)} onClick={() => setCurrent(1)}>Toasts</h2></div>
+					<div><span className={styles.list_number} >03</span><h2 className={cn(styles.title, current === 2 && styles.current)} onClick={() => setCurrent(2)}>Avacado Club</h2></div>
+					<div><span className={styles.list_number} >04</span><h2 className={cn(styles.title, current === 3 && styles.current)} onClick={() => setCurrent(3)}>Pancakes</h2></div>
+					<div><span className={styles.list_number} >05</span><h2 className={cn(styles.title, current === 4 && styles.current)} onClick={() => setCurrent(4)}>Figs Fever</h2></div>
 					
 				</div>
 				<div className={styles.images}>
