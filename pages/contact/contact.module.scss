@@ -1,0 +1,21 @@
+.contact_container {
+	display: flex;
+
+	img {
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		z-index: 1;
+		top: 25%;
+		left: 40%;
+	}
+}
+
+.contact{
+	width: 50%;
+	height: 100vh;
+	background-color: var(--clr-secondary);
+}
+.contact_body {
+	
+}

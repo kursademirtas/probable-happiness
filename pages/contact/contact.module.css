@@ -1,0 +1,21 @@
+.contact_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact_container img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  top: 25%;
+  left: 40%;
+}
+
+.contact {
+  width: 50%;
+  height: 100vh;
+  background-color: var(--clr-secondary);
+}
+/*# sourceMappingURL=contact.module.css.map */
