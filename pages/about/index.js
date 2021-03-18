@@ -1,7 +1,6 @@
 import React from 'react'
 import Icons from '../../components/Icons';
 import Layout from '../../components/Layout/Layout';
-import Title from '../../components/Title/Title';
 import styles from './about.module.css'
 
 const About = () => {
@@ -13,7 +12,7 @@ const About = () => {
 	return (
 		<Layout>
 			<section className={styles.about_container}>
-				<div>
+				<div >
 					<h2 className={styles.title}>About</h2>
 					<img className={styles.image} src="https://res.cloudinary.com/dlt51mt3f/image/upload/v1615466550/brutalism/hero-image_rop1o2.png" alt="orange photo"/>
 				</div>
