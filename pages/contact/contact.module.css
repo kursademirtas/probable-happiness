@@ -4,18 +4,62 @@
   display: flex;
 }
 
-.contact_container img {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  z-index: 1;
-  top: 25%;
-  left: 40%;
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 90vh;
+  background-color: var(--clr-secondary);
 }
 
-.contact {
-  width: 50%;
-  height: 100vh;
-  background-color: var(--clr-secondary);
+.contact h2 {
+  font-family: var(--ff-title);
+  font-size: var(--fs-title);
+  text-align: right;
+  line-height: var(--fs-title);
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+.contact_body {
+  color: #ffffff;
+}
+
+.contact_body span {
+  font-family: var(--ff-subtitle);
+}
+
+.contact_body p {
+  font-family: var(--ff-text);
+  margin: 1.5rem 0;
+}
+
+.contact_body div {
+  text-align: left;
+  width: 100px;
+  margin: 20px 100px 0 0;
+}
+
+@media (max-width: 768px) {
+  .map {
+    display: none;
+  }
+  .contact_container {
+    background-color: red;
+  }
+  .contact {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=contact.module.css.map */
