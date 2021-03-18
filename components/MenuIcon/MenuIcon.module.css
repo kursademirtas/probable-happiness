@@ -12,8 +12,6 @@
 	height: 19px;
 	cursor: pointer;
 	transition: all 0.5s;
-
-	
 }
 .menu_icon::before {
 	content: "";
@@ -22,18 +20,17 @@
 	width: 30px;
 	height: 2px;
 	left: 100%;
-	top: 0;
+	top: 20%;
 
 }  
 .menu_icon::after {
 	content: "";
 	position: absolute;
 	background-color: black;
-	width: 20px;
+	width: 30px;
 	height: 2px;
-	left: 110%;
-	top: 50%;
-
+	left: 100%;
+	top: 60%;
 }
 
 .close_icon {

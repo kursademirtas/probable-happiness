@@ -27,8 +27,8 @@ const Projects = () => {
 					
 				</div>
 				<div className={styles.images}>
-					<img className={cn(styles.project_image, current === 0 && styles.current_image)} src="https://res.cloudinary.com/dlt51mt3f/image/upload/v1615466551/brutalism/fruits_wtyykg.png" alt=""/>
-					<img className={cn(styles.project_image, current === 1 && styles.current_image)} src="https://res.cloudinary.com/dlt51mt3f/image/upload/v1615466551/brutalism/margarita_y4eehl.png" alt=""/>
+					<img className={cn(styles.project_image, current === 0 && styles.current_image)} src="https://images.unsplash.com/photo-1565612711481-69a7aa45147e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80" alt=""/>
+					<img className={cn(styles.project_image, current === 1 && styles.current_image)} src="https://images.unsplash.com/photo-1519068596688-d7eb3bcf2dc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80" alt=""/>
 					<img className={cn(styles.project_image, current === 2 && styles.current_image)} src="https://res.cloudinary.com/dlt51mt3f/image/upload/v1615466550/brutalism/menu-image_dnlxqd.png" alt=""/>
 					<img className={cn(styles.project_image, current === 3 && styles.current_image)} src="https://images.unsplash.com/photo-1609667816598-825622bc3def?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80" alt=""/>
 					<img className={cn(styles.project_image, current === 4 && styles.current_image)} src="https://images.unsplash.com/photo-1480350584567-289f054d58f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt=""/>

@@ -1,7 +1,7 @@
 .container{
- 
   height: 90vh;
   position: relative;
+  overflow: hidden;
 }
 
 .hero_content {
@@ -12,8 +12,8 @@
 
 .hero_img {
   width: 100vw;
-  max-height: 60vh;
-  min-height: 50vh;
+  height: 60vh;
+  margin-bottom: -20px;
 }
 
 
