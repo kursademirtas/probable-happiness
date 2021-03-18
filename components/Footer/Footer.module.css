@@ -1,0 +1,23 @@
+.footer {
+	width: 100%;
+	min-height: 285px;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: space-around ;
+	align-items:center;
+	flex-wrap: wrap;
+}
+.footer_items {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	max-width: 320px;
+	justify-content: center;
+
+}
+.footer_items >li {
+	width: 160px;
+	padding: 1rem 0;
+	text-transform: uppercase;
+	color: var(--clr-secondary);
+}
