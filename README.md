@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## I got the design idea  from figma community 
+//https://www.figma.com/file/hzCB1wIeHnjzXDGCZBhanE/ANDCOfromfiverr-brutalist-kit?node-id=0%3A1&viewport=321%2C307%2C0.03244711086153984
 
 ## Getting Started
 
@@ -18,13 +20,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Todo's
-
-
--Change project picture animation.
--Make responsive about page.
--Make carousel gallery for project page pictures on mobile look.
--Refactor code.(More reusable and component base)
 
 ## Deploy on Vercel
 
