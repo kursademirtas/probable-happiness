@@ -1,19 +1,15 @@
-import {useState} from 'react'
-import Footer from '../Footer';
-
-import Header from '../Header';
-import Menu from '../Menu'
+import { useState } from "react";
+import Header from "../Header";
+import Menu from "../Menu";
 const Layout = ({ children }) => {
+  const [menuToggle, setMenuToggle] = useState(false);
 
-	const [menuToggle, setMenuToggle] = useState(false);
-	
-	return (
-		<div className="layout">
-			<Header menuToggle ={menuToggle} setMenuToggle={setMenuToggle} />
-			{menuToggle ?	<Menu /> : children}
+  return (
+    <div className="layout">
+      <Header menuToggle={menuToggle} setMenuToggle={setMenuToggle} />
+      {menuToggle ? <Menu /> : children}
+    </div>
+  );
+};
 
-		</div>
-	)
-}
-
-export default Layout
+export default Layout;

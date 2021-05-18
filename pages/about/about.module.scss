@@ -177,6 +177,22 @@
 
 
 @media screen and (max-width: 768px) {
+	.title,
+	.subtitle,
+	.text{ 
+		max-width: 90%;
+		padding:1rem;
+		transform: rotate(0deg);
+	}
+
+	.image {
+		box-shadow: none;
+		max-width: 100%;
+		height: auto;
+		align-self: center;
+		padding: 1rem 0;
+		margin:3rem auto;
+	}
 	.about_container{
 		display: flex;
 		flex-direction: column;
@@ -189,13 +205,7 @@
 			position: static;
 			margin: 0 auto;	
 		}
-		.image {
-			box-shadow: none;
-			max-width: 100%;
-			height: auto;
-			align-self: center;
-			padding: 1rem 0;
-		}
+	
 		.about_body{
 			padding: 0;
 			width: 100%;		
@@ -206,7 +216,6 @@
 		flex-direction: column-reverse;
 		.title{
 			margin: 0;
-			color: red;
 			position: static;
 			transform: rotate(0deg);
 		}
@@ -223,6 +232,25 @@
 			padding: 0;
 			max-width: 80%;
 			align-self: center;
+		}
+	}
+
+	.ourValues {
+		.title{
+			top:0%;
+		}
+		.image{
+			margin-top: 8rem;
+		}
+	}
+	.team{
+		width: 90%;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+		img{
+			padding: 1rem 0;
 		}
 	}
 }
